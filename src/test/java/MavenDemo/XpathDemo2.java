@@ -1,9 +1,7 @@
 package MavenDemo;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +15,7 @@ public class XpathDemo2 {
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 
-		List<String> expAl = new ArrayList<>() {
+		List<String> expAl = new ArrayList<String>() {
 			{
 				add("Radio Button Example1");
 				add("Checkbox Example2");
